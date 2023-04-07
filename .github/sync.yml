@@ -7,9 +7,6 @@ group:
       - source: python/.gitignore
         dest: .gitignore
 
-      - source: python/.pre-commit-config.yaml
-        dest: .pre-commit-config.yaml
-
     repos: |
       FollowTheProcess/pytoil
       FollowTheProcess/madonna
