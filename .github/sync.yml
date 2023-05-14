@@ -19,6 +19,9 @@ group:
       - source: go/.gitignore
         dest: .gitignore
 
+      - source: go/.golangci.yml
+        dest: .golangci.yml
+
     repos: |
       FollowTheProcess/spok
       FollowTheProcess/tag
@@ -27,6 +30,7 @@ group:
       FollowTheProcess/collections
       FollowTheProcess/py
       FollowTheProcess/semver
+      FollowTheProcess/pointer
 
   # Common config across all GitHub repos
   - files:
