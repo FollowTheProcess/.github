@@ -79,6 +79,9 @@ FollowTheProcess/go_copier:
   - source: git/.gitattributes
     dest: project/.gitattributes
 
+  - source: go/.golangci.yml
+    dest: project/.golangci.yml
+
 FollowTheProcess/rust_copier:
   - source: git/.gitattributes
     dest: project/.gitattributes
