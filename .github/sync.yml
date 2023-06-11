@@ -69,6 +69,9 @@ FollowTheProcess/python_copier:
   - source: git/.gitattributes
     dest: project/.gitattributes
 
+  - source: python/dependabot.yml
+    dest: project/.github/dependabot.yml
+
 FollowTheProcess/go_copier:
   - source: go/.gitignore
     dest: project/.gitignore
@@ -82,9 +85,15 @@ FollowTheProcess/go_copier:
   - source: go/.golangci.yml
     dest: project/.golangci.yml
 
+  - source: go/dependabot.yml
+    dest: project/.github/dependabot.yml
+
 FollowTheProcess/rust_copier:
   - source: git/.gitattributes
     dest: project/.gitattributes
 
   - source: github/
     dest: project/.github
+
+  - source: rust/dependabot.yml
+    dest: project/.github/dependabot.yml
