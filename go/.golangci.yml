@@ -123,5 +123,4 @@ linters-settings:
         disabled: false
 
       - name: waitgroup-by-value
-        severity: warning
         disabled: false
