@@ -32,6 +32,9 @@ group:
       FollowTheProcess/semver
       FollowTheProcess/pointer
       FollowTheProcess/dev
+      FollowTheProcess/metrics
+      FollowTheProcess/parser
+      FollowTheProcess/debug
 
   # Common config across all GitHub repos
   - files:
@@ -56,6 +59,9 @@ group:
       FollowTheProcess/collections
       FollowTheProcess/vscode-spok
       FollowTheProcess/dev
+      FollowTheProcess/metrics
+      FollowTheProcess/parser
+      FollowTheProcess/debug
 
 # Copier templates
 FollowTheProcess/python_copier:
