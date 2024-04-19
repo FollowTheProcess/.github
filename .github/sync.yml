@@ -31,7 +31,6 @@ group:
       FollowTheProcess/py
       FollowTheProcess/semver
       FollowTheProcess/pointer
-      FollowTheProcess/dev
       FollowTheProcess/metrics
       FollowTheProcess/parser
       FollowTheProcess/debug
@@ -58,7 +57,6 @@ group:
       FollowTheProcess/semver
       FollowTheProcess/collections
       FollowTheProcess/vscode-spok
-      FollowTheProcess/dev
       FollowTheProcess/metrics
       FollowTheProcess/parser
       FollowTheProcess/debug
