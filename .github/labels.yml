@@ -30,10 +30,6 @@
   description: New feature or request
   color: a2eeef
 
-- name: github_actions
-  description: Pull requests that update Github_actions code
-  color: "000000"
-
 - name: good first issue
   description: Good for newcomers
   color: 7057ff
@@ -65,6 +61,11 @@
 - name: style
   description: Style
   color: c120e5
+
+- name: chore
+  description: General project admin
+  color: cfd3d7
+
 - name: testing
   description: Testing
   color: b1fc6f
