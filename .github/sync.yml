@@ -35,6 +35,8 @@ group:
       FollowTheProcess/parser
       FollowTheProcess/debug
       FollowTheProcess/cli
+      FollowTheProcess/gowc
+      FollowTheProcess/test
 
   # Common config across all GitHub repos
   - files:
@@ -62,6 +64,8 @@ group:
       FollowTheProcess/parser
       FollowTheProcess/debug
       FollowTheProcess/cli
+      FollowTheProcess/gowc
+      FollowTheProcess/test
 
 # Copier templates
 FollowTheProcess/python_copier:
