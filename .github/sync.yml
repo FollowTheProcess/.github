@@ -49,7 +49,7 @@ group:
     repos: |
       FollowTheProcess/go_copier
       FollowTheProcess/rust_copier
-      FollowTheProcess/python_copier
+      FollowTheProcess/python-package-template
       FollowTheProcess/madonna
       FollowTheProcess/goignore
       FollowTheProcess/msg
@@ -68,22 +68,6 @@ group:
       FollowTheProcess/test
 
 # Copier templates
-FollowTheProcess/python_copier:
-  - source: python/.gitignore
-    dest: project/.gitignore
-
-  - source: python/.pre-commit-config.yaml
-    dest: project/.pre-commit-config.yaml
-
-  - source: github/
-    dest: project/.github
-
-  - source: git/.gitattributes
-    dest: project/.gitattributes
-
-  - source: python/dependabot.yml
-    dest: project/.github/dependabot.yml
-
 FollowTheProcess/go_copier:
   - source: go/.gitignore
     dest: project/.gitignore
