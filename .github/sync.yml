@@ -28,7 +28,6 @@ group:
       FollowTheProcess/msg
       FollowTheProcess/goignore
       FollowTheProcess/collections
-      FollowTheProcess/py
       FollowTheProcess/semver
       FollowTheProcess/pointer
       FollowTheProcess/metrics
@@ -53,7 +52,6 @@ group:
       FollowTheProcess/madonna
       FollowTheProcess/goignore
       FollowTheProcess/msg
-      FollowTheProcess/py
       FollowTheProcess/spok
       FollowTheProcess/pytoil
       FollowTheProcess/tag
