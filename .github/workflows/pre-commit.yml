@@ -35,7 +35,7 @@ jobs:
           cd ..
 
       - name: Raise PR if Hooks Changed
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: Update pre-commit hooks
           branch: pre-commit/update
