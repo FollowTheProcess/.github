@@ -68,26 +68,26 @@ group:
 # Copier templates
 FollowTheProcess/go_copier:
   - source: go/.gitignore
-    dest: project/.gitignore
+    dest: template/.gitignore
 
   - source: github/
-    dest: project/.github
+    dest: template/.github
 
   - source: git/.gitattributes
-    dest: project/.gitattributes
+    dest: template/.gitattributes
 
   - source: go/.golangci.yml
-    dest: project/.golangci.yml
+    dest: template/.golangci.yml
 
   - source: go/dependabot.yml
-    dest: project/.github/dependabot.yml
+    dest: template/.github/dependabot.yml
 
 FollowTheProcess/rust_copier:
   - source: git/.gitattributes
-    dest: project/.gitattributes
+    dest: template/.gitattributes
 
   - source: github/
-    dest: project/.github
+    dest: template/.github
 
   - source: rust/dependabot.yml
-    dest: project/.github/dependabot.yml
+    dest: template/.github/dependabot.yml
